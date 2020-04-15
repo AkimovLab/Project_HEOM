@@ -5,7 +5,7 @@ This Jupyter notebook serves as a tutorial for generating both population dynami
 ## Comparative Analysis
 This Jupyter notebook illustrates how the different bath characteristics affect the population dynamics for two different energy gaps. It both calculates the population dynamics and plots the results. All panels of figure 6 are generated here.
 ## Timings
-The initialization timings and time per step of the population dynamics were compared for different hierarchy complexities. The hierarchy complexity was controlled by the level of the hierarchy (LL) and the number of Matsubara frequencies (KK + 1). Figure 12 from the manuscript is generated here. 
+The initialization timings and time per step of the population dynamics were compared for different hierarchy complexities. The hierarchy complexity was controlled by the level of the hierarchy (LL) and the number of Matsubara frequencies (KK + 1). Figure 11 from the manuscript is generated here.
 
 ## Seven state system
 The population dynamics of a seven level system is calculated using HEOM, and the results are plotted. The parameters of the system were obtained from Adolphs and Renger<sup>1</sup>. This models a subunit in the FMO complex, which transfers electrons from the light harvesting complex to the reaction center in green sulfur bacteria. Figure 7 is generated here.
