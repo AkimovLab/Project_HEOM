@@ -1,9 +1,15 @@
 # Project_HEOM
 The working files and examples from HEOM in Libra are contained here.
+
 ## HEOM Tutorial
 This Jupyter notebook serves as a tutorial for generating both population dynamics and absorbance spectra using the HEOM method. The population dynamics, dipole-dipole autocorrelation function (ACF), and the Fourier transform of the AFC are calculated and plotted. Figures 4, 5, 8, 9, and 10 from the manuscript are generated here.
+
 ## Comparative Analysis
 This Jupyter notebook illustrates how the different bath characteristics affect the population dynamics for two different energy gaps. It both calculates the population dynamics and plots the results. All panels of figure 6 are generated here.
+
+## Low Temperature
+This Jupyter notebook explores the required hierarchy complexity and subsequent calculation timings for converging population dynamics at low temperatures. Both panels of figure 12 in the manuscript are generated here. 
+
 ## Timings
 The initialization timings and time per step of the population dynamics were compared for different hierarchy complexities. The hierarchy complexity was controlled by the level of the hierarchy (LL) and the number of Matsubara frequencies (KK + 1). Figure 11 from the manuscript is generated here.
 
